@@ -1,13 +1,76 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.head{
+  background-color: #FFFFFF ;
+  display: flex;
+  padding-inline: 5%;
+  align-items: center;
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, #E5E5E5 0px 0px 0px 1px;
+}
+
+.head-image{
+  align-items: center;
+  height: 25.35px;
+  
+}
+
+.mid{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mid-hero{
+  padding-top: 30px;
+  padding-inline: 10%;
+  align-items: center;
+  height: 50%;
+  
+}
+.mid-header{
+  
+  font-size: 36px;
+  font-weight: bold;
+  padding-inline: 5%;
+  align-items: center;
+  width: 347px;
+  height: 30px;
+
+  
+}
+.mid-text{
+  
+  font-size: 16px;
+  font-weight: light;
+  padding-inline: 5%;
+  align-items: center;
+  width: 347px;
+}
+.card-body{
+  width: 176 px;
+  flex-wrap: wrap;
+}
+.card-KZ{
+  border-radius: 9px;
+}
+
+.card-title{
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+.card-star{
+  padding-right: 5px;
 }
