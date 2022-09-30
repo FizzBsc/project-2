@@ -59,11 +59,14 @@ code {
   width: 347px;
 }
 .card-body{
+  position: relative;
+  padding-inline: 5%;
   width: 176 px;
   flex-wrap: wrap;
 }
 .card-KZ{
   border-radius: 9px;
+  height: 235px;
 }
 
 .card-title{
@@ -73,4 +76,29 @@ code {
 }
 .card-star{
   padding-right: 5px;
+  height: 10px;
+}
+.subtext{
+  color: #918E9B ;
+}
+.rating{
+  font-size: medium;
+  color: orangered ;
+}
+.rowcard{
+  display: flex;
+  align-items: baseline;
+  padding-left: 70px;
+  width: fit-content;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 38px;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  opacity: .5;
+  background-color: white;
 }
